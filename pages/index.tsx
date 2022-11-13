@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useState, useEffect } from 'react'
 import {Projects, Hero, Header, About, Skill, Contact } from '../components'
 
 
@@ -10,12 +11,11 @@ const Home = ({}: Props) => {
   return (
     <>
 
-    <div className='bg-[#ecf0f3] text-[#1f2937] tracking-wide
-    h-screen  z-0 overflow-x-hidden snap-y snap-mandatory  '>
+    <div className={` bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    h-screen  z-0 overflow-x-hidden snap-y snap-mandatory`}>
       <Head>
         <title>Portfolio</title>
       </Head>
-
 
 
       <section id='hero' className='snap-start'>

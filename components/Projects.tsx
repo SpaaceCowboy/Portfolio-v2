@@ -39,7 +39,7 @@ return (
             }}
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y:0}}
-            viewport={{ once:true}}
+            
             src={projects.img}
             alt="" 
             className='h-[45%] w-[60%] mt-10 md:h-[50%] md:w-[60%] lg:h-[50%] lg:w-[30%]'
