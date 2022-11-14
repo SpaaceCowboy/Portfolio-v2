@@ -11,11 +11,11 @@
 
 
 .dark {
-     background-color: #333;
-     color: #fff
+     background-color: rgb(36, 36, 36);
+     color: white
 }
 
 .light {
- background-color: #fff;
-    color: #333
+background-color: #ecf0f3;
+ color: #1f2937
 }

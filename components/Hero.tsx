@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 /* React-simple-typewriter */
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import BackgroundCircles from "./BackgroundCircles"
@@ -16,6 +16,7 @@ type Props = {
 
 /* Simple-typewriter hooks => Docs */
 function Hero({}: Props) {
+
     const [text, count] = useTypewriter({
         words: [
             "Hi, The Name's Shayan",

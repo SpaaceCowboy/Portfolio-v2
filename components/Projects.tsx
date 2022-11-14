@@ -28,8 +28,8 @@ return (
             Projects
         </h3>
         
-        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden  z-20 
-          snap-x snap-mandatory '>
+        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden z-20 
+          snap-x snap-mandatory scrollbar scrollbar-thumb-slate-400/60 scrollbar-track-slate-400/10'>
             {projects.map((projects) => (
             <div  className='w-screen flex-shrink-0 snap-center flex flex-col
             space-y-5 items-center justify-center p-20  h-screen'>
@@ -62,7 +62,7 @@ return (
                     <FaGithub />
                 </div>
             </div>
-            <a href={projects.id}>scroll right</a>
+           
             </div>
               ))}
               

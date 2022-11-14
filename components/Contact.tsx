@@ -17,7 +17,7 @@ const Contact = () => {
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
-              <div className='relative hover:scale-105 ease-in duraction-300 rounded-xl md:h-[45%]'>
+              <div className='relative hover:scale-105 ease-in duraction-300 rounded-xl md:none lg:h-60'>
                 <Image
                   layout='fill'
                   src="/contact.jpg"

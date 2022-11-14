@@ -44,7 +44,6 @@ function Header({}: Props) {
                 <a href='#project'>
                 <button className='heroButton'>Projects</button>
                 </a>
-                <button onClick={toggleTheme}>Toggle theme </button>
             </div>
         </motion.div>
 
