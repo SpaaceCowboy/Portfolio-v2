@@ -83,14 +83,14 @@ const Home = ({}: Props) => {
 
       <section id='hero' className='snap-start'>
 
-      <div className='fixed top-8 left-[40%] lg:left-[45%] w-full cursor-pointer'>
-        <div className='flex items-center justify-center '>
+      <div className='fixed top-8 left-[89%] lg:left-[94.5%]  w-full cursor-pointer'>
+    
           <FormControlLabel
           onClick={toggleTheme}
           control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
           label=""
         />
-        </div>
+        
       </div>
 
         <Hero />
@@ -113,7 +113,7 @@ const Home = ({}: Props) => {
       </section>
 
       <a href="#hero">
-        <footer className='fixed bottom-5 left-[40%] lg:left-[45%] w-full cursor-pointer'>
+        <footer className='fixed bottom-5 left-[44%] lg:left-[47%] w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
             <div className='relative h-10 w-10 rounded-full filter grayscale 
             hover:grayscale-0 cursor-pointer'>
